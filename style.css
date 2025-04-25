@@ -65,6 +65,30 @@ body {
 	width: 250px;
 	transition: transform 0.3s ease;
   }
+  .card img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 15px;
+	border: 3px solid white;
+  }
+  
+  .social-icons {
+	margin-top: 15px;
+  }
+  
+  .social-icons a {
+	color: white;
+	margin: 0 8px;
+	font-size: 1.2rem;
+	transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+	color: #ffd700; /* gold on hover */
+  }
+  
   
   .card:hover {
 	transform: translateY(-5px);
