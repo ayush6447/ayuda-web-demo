@@ -8,7 +8,7 @@ body {
   
   .hero {
 	height: 100vh;
-	background: linear-gradient(to right, #007bff, #0056b3);
+	background: linear-gradient(to right, #80D4FF, #0056b3);
 	display: flex;
 	align-items: center;
 	justify-content: center;
